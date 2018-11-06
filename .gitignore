@@ -1,4 +1,12 @@
-# ferramentas de desenvolvimento
+# comentários.
 .idea/
 nbproject/
 .vscode/
+
+# comentários.
+composer.lock
+package-lock.json
+
+# comentários.
+vendor/
+node_modules/
