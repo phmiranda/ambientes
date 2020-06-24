@@ -1,4 +1,4 @@
-# Configuração de Ambientes Para Produção e Desenvolvimento
+# Ambiente de Desenvolvimento e Produção
 
 ## Introdução
 ## Documentos
