@@ -20,3 +20,5 @@ RUN yum install httpd -y
 
 # comentário
 RUN wget https://downloads.ioncube.com/loader_downloads/ioncube_loaders_lin_x86-64.zip
+
+CMD ["/run-httpd.sh"]
