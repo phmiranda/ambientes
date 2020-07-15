@@ -32,6 +32,9 @@ RUN mv scriptcase /var/www/html/
 RUN rm *.zip && rm -R ioncube
 
 # comentário.
+RUN chown -R www-data:www-data /var/www/html
+
+# comentário.
 EXPOSE 80
 EXPOSE 443
 
