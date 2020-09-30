@@ -5,6 +5,7 @@ FROM debian:latest
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install apache2
 RUN apt-get -y install lsb-release apt-transport-https ca-certificates
+RUN apt-get -y curl sudo wget unzip
 
 # comentário.
 ADD ./config/000-default.conf /etc/apache2/sites-available/000-default.conf
